@@ -17,12 +17,40 @@
         }
 
         h1 {
-            background: linear-gradient(to right, lightgreen, darkblue);
+            background: linear-gradient(to right, yellow, blue);
+            color: black;
             border: 2px solid black;
             border-radius: 15px;
             padding: 10px;
             text-align: center;
             margin: 15px 0 10px 0;
+        }
+
+        div {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+
+        iframe {
+            height: 600px;
+            width: 371px;
+            margin: 0 10px;
+        }
+
+        a {
+            background-color: blue;
+            color: yellow;
+            border-radius: 8px;
+            margin: 10px 0 15px 0;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: red;
+            color: aqua;
+            text-decoration: underline;
         }
 
         .sombra {
@@ -33,18 +61,12 @@
 <body>    
     <h1 class="sombra">Nossos Trabalhos</h1>
     <div>
-        <img src="imagens/acaiteria1.jpg" alt="Imagem">
-        <img src="imagens/acaiteria2.jpg" alt="Imagem">
-        <img src="imagens/acaiteria3.jpg" alt="Imagem">
-        <img src="imagens/acaiteria4.jpg" alt="Imagem">
-        <img src="imagens/yeshua1.jpg" alt="Imagem">
-        <img src="imagens/yeshua2.jpg" alt="Imagem">
-        <img src="imagens/yeshua3.jpg" alt="Imagem">
-        <img src="imagens/yeshua4.jpg" alt="Imagem">
-        <img src="imagens/yeshua5.jpg" alt="Imagem">
-        <img src="imagens/yeshua6.jpg" alt="Imagem">
-        <img src="imagens/yeshua7.jpg" alt="Imagem">
-        <img src="imagens/yeshua8.jpg" alt="Imagem">
-    </div>    
+        <iframe src="https://aggrillo.github.io/a-casa-do-acai/index.html" frameborder="1"></iframe>
+        <iframe src="https://aggrillo.github.io/site-yeshua/site-yeshua.html" frameborder="1"></iframe>
+        <iframe src="https://inoxguagta.github.io/gabriel-pianista/index.html" frameborder="0"></iframe>
+    </div>
+    <div>
+        <a href="index.html">VOLTAR</a>
+    </div>
 </body>
 </html>
