@@ -17,7 +17,7 @@
         }
 
         h1 {
-            color: lightyellow;
+            color: yellow;
             background-image: linear-gradient(to right, purple, blue);
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             text-align: center;
@@ -30,13 +30,18 @@
             margin-bottom: 10px;
         }
 
+        div {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+        }
+
         .logo {
-            width: 250px;
+            width: 270px;
             height: auto;
             border-radius: 20px;
-            display: block;
-            margin: auto;
             border: 3px solid black;
+            margin-bottom: 10px;
         }
 
         menu {
@@ -49,7 +54,7 @@
             background-color: blue;
             border-radius: 8px;
             margin: 0 5px;
-            padding: 5px 10px;
+            padding: 6px 17px;
             font-weight: bold;
             text-decoration: none;
         }
@@ -81,10 +86,12 @@
 <body>
     <header>
         <h1 class="sombra"><span style="color: lightpink;">KURINGA</span><br>Desenvolvimento Web</h1>
+        <hr style="margin-top: 15px; margin-bottom: 10px;">
     </header>
-    <hr style="margin-top: 15px; margin-bottom: 10px;">
     <main>
-        <img class="logo sombra" src="imagens/logo.jpeg" alt="Logotipo"><br>
+        <div>
+            <img class="logo sombra" src="imagens/logo.jpeg" alt="Logotipo"><br>
+        </div>    
         <hr style="margin-bottom: 15px;">
         <menu>
             <a class="sombra" href="trabalhos.html">TRABALHOS</a></li>
